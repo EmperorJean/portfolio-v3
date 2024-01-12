@@ -1,0 +1,41 @@
+nav {
+    background-color: white;
+    max-width: 250px;
+    height: 100%;
+    border-right: 1px solid var(--border-color);
+    padding: 0 1rem;
+    flex: 1;
+}
+
+#navTitle {
+    font-size: 20pt;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+
+#navItems {
+    font-size: 15pt;
+    margin-top: 2rem;
+}
+
+.navItem {
+    display: flex;
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navItem:not(.selected):hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.navItem > p {
+    margin: 0 1rem;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}

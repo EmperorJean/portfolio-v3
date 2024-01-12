@@ -1,0 +1,9 @@
+
+main {
+    flex: 1;
+}
+
+main > iframe {
+    width: 100%;
+    height: 100vh;
+}

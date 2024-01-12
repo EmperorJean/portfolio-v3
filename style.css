@@ -1,0 +1,7 @@
+@import url("./css/Common.css");
+@import url("./css/Nav.css");
+@import url("./css/Main.css");
+
+body {
+    display: flex;
+}
